@@ -109,3 +109,26 @@ tr.together td + td{
 	font-style: italic;
 }
 /* End all epigraphs */
+
+/* Epigraphs in section headers */
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: initial;
+}
+
+section > header [epub|type~="epigraph"] + *{
+	margin-top: 3em;
+}
+
+@supports(display: table){
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+
+header [epub|type~="epigraph"] cite{
+	font-variant: small-caps;
+}
+/* End epigraphs in section headers */
