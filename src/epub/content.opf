@@ -82,8 +82,16 @@
 		<item href="css/se.css" id="se.css" media-type="text/css"/>
 		<item href="images/cover.svg" id="cover.svg" media-type="image/svg+xml" properties="cover-image"/>
 		<item href="images/logo.svg" id="logo.svg" media-type="image/svg+xml"/>
+		<item href="images/music-1.svg" id="music-1.svg" media-type="image/svg+xml"/>
+		<item href="images/music-2.svg" id="music-2.svg" media-type="image/svg+xml"/>
+		<item href="images/music-3.svg" id="music-3.svg" media-type="image/svg+xml"/>
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
+		<item href="text/act-1.xhtml" id="act-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/act-2.xhtml" id="act-2.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/act-3.xhtml" id="act-3.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/act-4.xhtml" id="act-4.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		<item href="text/dedication.xhtml" id="dedication.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/uncopyright.xhtml" id="uncopyright.xhtml" media-type="application/xhtml+xml"/>
@@ -91,6 +99,11 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="dedication.xhtml"/>
+		<itemref idref="act-1.xhtml"/>
+		<itemref idref="act-2.xhtml"/>
+		<itemref idref="act-3.xhtml"/>
+		<itemref idref="act-4.xhtml"/>
 		<itemref idref="colophon.xhtml"/>
 		<itemref idref="uncopyright.xhtml"/>
 	</spine>
