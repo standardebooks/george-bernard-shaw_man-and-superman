@@ -108,6 +108,7 @@ tr.together td + td{
 [epub|type~="epigraph"] cite i{
 	font-style: italic;
 }
+/*End All Epigraphs*/
 
 /* Epigraphs in section headers */
 section > header [epub|type~="epigraph"]{
@@ -130,6 +131,7 @@ section > header [epub|type~="epigraph"] + *{
 header [epub|type~="epigraph"] cite{
 	font-variant: small-caps;
 }
+/*End Epigraphs in section headers*/
 
 /* Dramatis Personae */
 
@@ -155,3 +157,31 @@ header [epub|type~="epigraph"] cite{
 [epub|type~="z3998:dramatis-personae"] ul + p{
 	margin-top: 2em;
 }
+/*End Dramatis Personae*/
+
+header{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
+
+/*Verse*/
+[epub|type~="z3998:verse"] p{
+	text-align: initial;
+	text-indent: 0;
+}
+
+[epub|type~="z3998:verse"] p > span{
+	display: block;
+	text-indent: -1em;
+	padding-left: 1em;
+}
+
+[epub|type~="z3998:verse"] p > span + br{
+	display: none;
+}
+
+[epub|type~="z3998:verse"] p + p{
+	margin-top: 1em;
+}
+/*End Verse*/
