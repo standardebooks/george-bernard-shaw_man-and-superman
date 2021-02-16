@@ -108,7 +108,7 @@ tr.together td + td{
 [epub|type~="epigraph"] cite i{
 	font-style: italic;
 }
-/*End All Epigraphs*/
+/* End All Epigraphs */
 
 /* Epigraphs in section headers */
 section > header [epub|type~="epigraph"]{
@@ -131,10 +131,9 @@ section > header [epub|type~="epigraph"] + *{
 header [epub|type~="epigraph"] cite{
 	font-variant: small-caps;
 }
-/*End Epigraphs in section headers*/
+/* End Epigraphs in section headers */
 
 /* Dramatis Personae */
-
 [epub|type~="z3998:dramatis-personae"]{
 	text-align: center;
 }
@@ -157,7 +156,7 @@ header [epub|type~="epigraph"] cite{
 [epub|type~="z3998:dramatis-personae"] ul + p{
 	margin-top: 2em;
 }
-/*End Dramatis Personae*/
+/* End Dramatis Personae */
 
 header{
 	font-variant: small-caps;
@@ -165,7 +164,7 @@ header{
 	text-align: center;
 }
 
-/*Verse*/
+/* Verse */
 [epub|type~="z3998:verse"] p{
 	text-align: initial;
 	text-indent: 0;
@@ -184,4 +183,4 @@ header{
 [epub|type~="z3998:verse"] p + p{
 	margin-top: 1em;
 }
-/*End Verse*/
+/* End Verse */
