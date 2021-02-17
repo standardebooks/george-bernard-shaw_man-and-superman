@@ -43,10 +43,9 @@ i [epub|type~="z3998:persona"]{
 	font-style: normal;
 }
 
-[epub|type~="z3998:stage-direction"] em{
+/* [epub|type~="z3998:stage-direction"] em{
 	font-style: normal;
-}
-
+} */
 [epub|type~="z3998:stage-direction"]::before{
 	content: "(";
 	font-style: normal;
@@ -94,7 +93,7 @@ tr.together td + td{
 	-epub-hyphens: none;
 }
 
-[epub|type~="epigraph"] em,
+/* [epub|type~="epigraph"] em, */
 [epub|type~="epigraph"] i{
 	font-style: normal;
 }
@@ -153,9 +152,9 @@ header [epub|type~="epigraph"] cite{
 	font-style: italic;
 }
 
-[epub|type~="z3998:dramatis-personae"] ul + p{
+/* [epub|type~="z3998:dramatis-personae"] ul + p{
 	margin-top: 2em;
-}
+} */
 /* End Dramatis Personae */
 
 header{
@@ -185,8 +184,8 @@ header{
 }
 /* End Verse */
 
-/*Section breaks for appendix*/
+/* Section breaks for appendix */
 section{
 	break-after: page;
 }
-/*End Section breaks*/
+/* End Section breaks */
