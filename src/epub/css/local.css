@@ -196,3 +196,17 @@ section{
 }
 
 /* End Letter */
+
+/* Appendix headers*/
+section > header > h2 + p{
+	font-variant: small-caps;
+	hyphens: none;
+	-epub-hyphens: none;
+	break-after: avoid;
+	break-inside: avoid;
+	text-align: center;
+	margin: 3em 0;
+}
+
+
+/* End Appendix Headers*/
