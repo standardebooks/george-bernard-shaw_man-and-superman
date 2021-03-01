@@ -194,10 +194,9 @@ section{
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
-
 /* End Letter */
 
-/* Appendix headers*/
+/* Appendix headers */
 section > header > h2 + p{
 	font-variant: small-caps;
 	hyphens: none;
@@ -207,6 +206,4 @@ section > header > h2 + p{
 	text-align: center;
 	margin: 3em 0;
 }
-
-
-/* End Appendix Headers*/
+/* End Appendix Headers */
