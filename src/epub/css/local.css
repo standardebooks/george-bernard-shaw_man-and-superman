@@ -111,10 +111,6 @@ section > header [epub|type~="epigraph"]{
 	text-align: initial;
 }
 
-section > header [epub|type~="epigraph"] + *{
-	margin-top: 3em;
-}
-
 @supports(display: table){
 	section > header [epub|type~="epigraph"]{
 		display: table;
@@ -195,15 +191,3 @@ section{
 	font-variant: small-caps;
 }
 /* End Letter */
-
-/* Appendix headers */
-section > header > h2 + p{
-	font-variant: small-caps;
-	hyphens: none;
-	-epub-hyphens: none;
-	break-after: avoid;
-	break-inside: avoid;
-	text-align: center;
-	margin: 3em 0;
-}
-/* End Appendix Headers */
