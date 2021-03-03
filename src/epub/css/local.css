@@ -201,9 +201,17 @@ section{
 	break-inside: avoid;
 	text-align: center;
 	margin: 3em 0;
-	break-after: avoid;
-	break-inside: avoid;
-	hyphens: none;
-	-epub-hyphens: none;
-	text-align: center;
+}
+
+#appendix-1 h2 + h3{
+	font-weight: bold;
+}
+
+#appendix-1 h2 + p{
+	font-weight: bold;
+}
+
+#appendix-1 h2 + p > i{
+	font-variant: normal;
+	font-weight: normal;
 }
