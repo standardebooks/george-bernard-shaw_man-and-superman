@@ -36,14 +36,4 @@
 			<reason>Stage directions have undergone manual review.</reason>
 		</ignore>
 	</file>
-	<file path="appendix-2.xhtml">
-		<ignore>
-			<code>s-077</code>
-			<reason>This section is being treated like a collection of poetry.</reason>
-		</ignore>
-		<ignore>
-			<code>s-071</code>
-			<reason>Each entry in this section has a header.</reason>
-		</ignore>
-	</file>
 </se-lint-ignore>
