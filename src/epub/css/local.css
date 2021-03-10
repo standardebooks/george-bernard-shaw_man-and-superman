@@ -141,10 +141,6 @@ header [epub|type~="epigraph"] cite{
 	margin: 1em;
 	font-style: italic;
 }
-
-/* [epub|type~="z3998:dramatis-personae"] ul + p{
-	margin-top: 2em;
-} */
 /* End Dramatis Personae */
 
 header{
@@ -208,6 +204,7 @@ footer{
 #appendix-1 p b{
 	text-align: center;
 	display: block;
+	text-indent: 0;
 }
 
 #appendix-1 h2 + p{
@@ -218,3 +215,17 @@ footer{
 	font-variant: normal;
 	font-weight: normal;
 }
+/* End appendix-1 headers*/
+
+/* Images */
+figure img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+}
+
+figure{
+	margin: 1em auto;
+	text-align: center;
+}
+/* End images */
