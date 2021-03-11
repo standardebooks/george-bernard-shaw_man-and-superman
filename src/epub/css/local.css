@@ -188,7 +188,7 @@ header{
 }
 
 #appendix-2 header{
-	break-after: avoid-page;
+	break-after: avoid;
 }
 /* End Section breaks */
 
