@@ -183,7 +183,7 @@ header{
 	break-after: avoid;
 }
 
-#appendix-2 header:nth-of-type(1){
+#appendix-2 h2{
 	break-after: page;
 }
 /* End Section breaks */
