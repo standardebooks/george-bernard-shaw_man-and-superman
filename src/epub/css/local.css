@@ -187,8 +187,8 @@ header{
 	break-after: page;
 }
 
-#appendix-2 h2{
-	break-after: avoid;
+#appendix-2 header{
+	break-after: avoid-page;
 }
 /* End Section breaks */
 
