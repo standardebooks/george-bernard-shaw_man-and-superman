@@ -186,10 +186,6 @@ header{
 #appendix-2 h2{
 	break-after: page;
 }
-
-#appendix-2 header{
-	break-after: avoid;
-}
 /* End Section breaks */
 
 /* Letter */
@@ -197,7 +193,6 @@ header{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:sender"],
 [epub|type~="z3998:salutation"],
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
