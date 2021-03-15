@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/george-bernard-shaw/man-and-superman</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2021-03-15T01:21:40Z</dc:date>
+		<meta property="dcterms:modified">2021-03-15T01:21:40Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -37,19 +37,19 @@
 		<meta property="term" refines="#subject-2">sh85043338</meta>
 		<meta property="se:subject">Comedy</meta>
 		<meta property="se:subject">Drama</meta>
-		<dc:description id="description">Jack Tanner flees London and responsibility when he is made guardian of his childhood friend Ann Whitehead.</dc:description>
+		<dc:description id="description">Jack Tanner flees both London and responsibility when he is made guardian of his childhood friend Ann Whitehead.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;Following the death of her father, Ann Whitefield becomes the ward of Jack Tanner and Roebuck Ramsden; Jack is a childhood friend, author of &lt;i&gt;The Revolutionist’s Handbook,&lt;/i&gt; and descendant of Don Juan, while Roebuck Ramsden is a respectable friend of her father’s entirely opposed to Jack's philosophy. Also in mourning are Octavius Robinson, who is openly in love with Ann, and his sister Violet, who is secretly pregnant. So begins a journey that will take them across London, Europe, and to Hell.&lt;/p&gt;
-			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/george-bernard-shaw"&gt;George Bernard Shaw&lt;/a&gt; was a Nobel Prize-winning Irish playwright political activist, also known for &lt;a href="https://standardebooks.org/ebooks/george-bernard-shaw/pygmalion"&gt;&lt;i&gt;Pygmalion&lt;/i&gt;&lt;/a&gt; and &lt;i&gt;Saint Joan&lt;/i&gt;, who lived from 1856–1950. &lt;i&gt;Man and Superman&lt;/i&gt; was first performed in 1905 with the third act excised; a part of that third act, &lt;i&gt;Don Juan in Hell,&lt;/i&gt; was performed in 1907. The full play was not performed in its entirety until 1915.&lt;/p&gt;
-			&lt;p&gt;Shaw explains that he wrote &lt;i&gt;Man and Superman&lt;/i&gt; after being challenged to write on the theme of Don Juan. Once described as Shaw's most allusive play, &lt;i&gt;Man and Superman&lt;/i&gt; refers to &lt;a href="https://standardebooks.org/ebooks/friedrich-nietzsche"&gt;Friedrich Nietzsche's&lt;/a&gt; concept of an "Übermensch" and combines Neitzsche's argument that humanity is evolving towards a "superman" with the the philosophy of Don Juan as a way to present his conceptions of society: namely, that it is women who are the driving force behind natural selection and the propagation of the species. To this end, Shaw includes &lt;i&gt;The Revolutionist's Handbook and Pocket Companion&lt;/i&gt; as written by the character Jack Tanner as an appendix.&lt;/p&gt;
+			&lt;p&gt;Following the death of her father, Ann Whitefield becomes the ward of Jack Tanner and Roebuck Ramsden; Jack is a childhood friend, author of &lt;i&gt;The Revolutionist’s Handbook&lt;/i&gt;, and descendant of Don Juan, while Roebuck Ramsden is a respectable friend of her father’s entirely opposed to Jack’s philosophy. Also in mourning are Octavius Robinson, who is openly in love with Ann, and his sister Violet, who is secretly pregnant. So begins a journey that will take them across London, Europe, and to Hell.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;Man and Superman&lt;/i&gt; was first performed in 1905 with the third act excised; a part of that third act, &lt;i&gt;Don Juan in Hell&lt;/i&gt;, was performed in 1907. The full play was not performed in its entirety until 1915.&lt;/p&gt;
+			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/george-bernard-shaw"&gt;Shaw&lt;/a&gt; explains that he wrote &lt;i&gt;Man and Superman&lt;/i&gt; after being challenged to write on the theme of Don Juan. Once described as Shaw’s most allusive play, &lt;i&gt;Man and Superman&lt;/i&gt; refers to &lt;a href="https://standardebooks.org/ebooks/friedrich-nietzsche"&gt;Nietzsche’s&lt;/a&gt; concept of the “Übermensch.” It combines Neitzsche’s argument that humanity is evolving towards a “superman” with the philosophy of Don Juan as a way to present his conception of society: namely, that it is women who are the driving force behind natural selection and the propagation of the species. To this end, Shaw includes as an appendix &lt;i&gt;The Revolutionist’s Handbook and Pocket Companion&lt;/i&gt; as written by the character Jack Tanner.&lt;/p&gt;
 		</meta>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3328</dc:source>
 		<dc:source>https://archive.org/details/manandsupermana06shawgoog</dc:source>
 		<dc:source>https://www.bartleby.com/157/index.html</dc:source>
-		<meta property="se:production-notes">PG version was missing appendix, so it has been taken from Bartleby.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:production-notes">The PG version was missing appendix, so it has been taken from Bartleby.</meta>
+		<meta property="se:word-count">86194</meta>
+		<meta property="se:reading-ease.flesch">64.2</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Man_and_Superman</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/george-bernard-shaw_man-and-superman</meta>
 		<dc:creator id="author">George Bernard Shaw</dc:creator>
@@ -79,6 +79,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Emma Sweeney</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Sweeney, Emma</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://www.linkedin.com/in/emma-sweeney-554927190/</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
