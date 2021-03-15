@@ -122,6 +122,11 @@ header [epub|type~="epigraph"] cite{
 }
 /* End Epigraphs in section headers */
 
+
+section > header [epub|type~="epigraph"]{
+	font-variant: normal;
+}
+
 /* Dramatis Personae */
 [epub|type~="z3998:dramatis-personae"]{
 	text-align: center;
