@@ -122,7 +122,6 @@ header [epub|type~="epigraph"] cite{
 }
 /* End Epigraphs in section headers */
 
-
 section > header [epub|type~="epigraph"]{
 	font-variant: normal;
 }
