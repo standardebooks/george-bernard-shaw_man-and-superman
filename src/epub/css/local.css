@@ -147,8 +147,8 @@ section > header [epub|type~="epigraph"]{
 }
 
 [epub|type~="z3998:dramatis-personae"] ul li{
-	margin: 1em;
 	font-style: italic;
+	margin: 1em;
 }
 /* End Dramatis Personae */
 
