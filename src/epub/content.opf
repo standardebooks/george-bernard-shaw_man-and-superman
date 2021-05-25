@@ -30,6 +30,12 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Man and Superman</dc:title>
 		<meta property="file-as" refines="#title">Man and Superman</meta>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Comedy and a Philosophy</dc:title>
+		<meta property="file-as" refines="#subtitle">Comedy and a Philosophy, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Man and Superman: A Comedy and a Philosophy</dc:title>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Man-woman relationships -- Drama</dc:subject>
 		<dc:subject id="subject-2">English drama</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
