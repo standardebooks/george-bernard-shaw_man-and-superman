@@ -197,12 +197,11 @@ header{
 }
 /* End Section breaks */
 
-/* Letter */
-[epub|type~="z3998:salutation"] + p{
+#dedication > p:first-of-type + p{
 	text-indent: 0;
 }
 
-[epub|type~="z3998:salutation"],
+#dedication > p:first-of-type,
 [epub|type~="z3998:signature"]{
 	font-variant: small-caps;
 }
@@ -211,7 +210,6 @@ footer{
 	margin-top: 1em;
 	text-align: right;
 }
-/* End Letter */
 
 /* Appendix-1 headers */
 #appendix-1 p b{
