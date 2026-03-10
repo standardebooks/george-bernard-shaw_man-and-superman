@@ -2,6 +2,9 @@
 <se-lint-ignore>
 	<file path="local.css">
 		<ignore code="c-009">
+			<line>112</line>
+			<line>120</line>
+			<line>130</line>
 			<reason>CSS is overriding an SE style.</reason>
 		</ignore>
 	</file>
