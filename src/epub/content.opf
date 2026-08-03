@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0 rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
+<package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">https://standardebooks.org/ebooks/george-bernard-shaw/man-and-superman</dc:identifier>
 		<dc:date>2021-03-15T01:21:40Z</dc:date>
@@ -46,12 +46,12 @@
 		<meta property="term" refines="#subject-2">sh85043338</meta>
 		<meta property="schema:genre">Comedy</meta>
 		<meta property="schema:genre">Drama</meta>
-		<dc:description id="description">Jack Tanner flees both London and responsibility when he is made guardian of his childhood friend Ann Whitehead.</dc:description>
-		<meta id="long-description" property="se:long-description" refines="#description">
+		<dc:abstract>Jack Tanner flees both London and responsibility when he is made guardian of his childhood friend Ann Whitehead.</dc:abstract>
+		<dc:description>
 			&lt;p&gt;Following the death of her father, Ann Whitefield becomes the ward of Jack Tanner and Roebuck Ramsden; Jack is a childhood friend, author of &lt;i&gt;The Revolutionist’s Handbook&lt;/i&gt;, and descendant of Don Juan, while Roebuck Ramsden is a respectable friend of her father’s entirely opposed to Jack’s philosophy. Also in mourning are Octavius Robinson, who is openly in love with Ann, and his sister Violet, who is secretly pregnant. So begins a journey that will take them across London, Europe, and to Hell.&lt;/p&gt;
 			&lt;p&gt;&lt;a href="https://standardebooks.org/ebooks/george-bernard-shaw"&gt;George Bernard Shaw&lt;/a&gt; wrote &lt;i&gt;Man and Superman&lt;/i&gt; between 1901 and 1903. It was first performed in 1905 with the third act excised; a part of that third act, &lt;i&gt;Don Juan in Hell&lt;/i&gt;, was performed in 1907. The full play was not performed in its entirety until 1915.&lt;/p&gt;
 			&lt;p&gt;Shaw explains that he wrote &lt;i&gt;Man and Superman&lt;/i&gt; after being challenged to write on the theme of Don Juan. Once described as Shaw’s most allusive play, &lt;i&gt;Man and Superman&lt;/i&gt; refers to &lt;a href="https://standardebooks.org/ebooks/friedrich-nietzsche"&gt;Nietzsche’s&lt;/a&gt; concept of the &lt;i&gt;Übermensch&lt;/i&gt;. It combines Nietzsche’s argument that humanity is evolving towards a “superman” with the philosophy of Don Juan as a way to present his conception of society: namely, that it is women who are the driving force behind natural selection and the propagation of the species. To this end, Shaw includes as an appendix &lt;i&gt;The Revolutionist’s Handbook and Pocket Companion&lt;/i&gt; as written by the character Jack Tanner.&lt;/p&gt;
-		</meta>
+		</dc:description>
 		<dc:language>en-US</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/3328</dc:source>
 		<dc:source>https://archive.org/details/manandsupermana06shawgoog</dc:source>
